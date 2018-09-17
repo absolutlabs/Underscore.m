@@ -33,7 +33,6 @@
 		BCFADFF61837E77000A81EB5 /* USStringWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFF11837E77000A81EB5 /* USStringWrapper.h */; };
 		BCFADFF71837E77000A81EB5 /* USStringWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF21837E77000A81EB5 /* USStringWrapper.m */; };
 		BCFADFFC1837EBE600A81EB5 /* UnderscoreStringsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF91837EBA200A81EB5 /* UnderscoreStringsSpec.m */; };
-		BF9F16E8214BED3600044773 /* Underscore_m.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9F16E6214BED3600044773 /* Underscore_m.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF9F16EC214BED9C00044773 /* Underscore+Times.m in Sources */ = {isa = PBXBuildFile; fileRef = 437EE9791AC9423D00BBB61A /* Underscore+Times.m */; };
 		BF9F16ED214BED9C00044773 /* Underscore+Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF01837E77000A81EB5 /* Underscore+Strings.m */; };
 		BF9F16EE214BED9C00044773 /* USStringWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFADFF21837E77000A81EB5 /* USStringWrapper.m */; };
@@ -41,13 +40,14 @@
 		BF9F16F0214BED9C00044773 /* Underscore+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C44DA15B30ADD004698B8 /* Underscore+Functional.m */; };
 		BF9F16F1214BED9C00044773 /* USArrayWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54903D12155FF779006854CB /* USArrayWrapper.m */; };
 		BF9F16F2214BED9C00044773 /* USDictionaryWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54996B2215614B220016BE94 /* USDictionaryWrapper.m */; };
-		BF9F16F3214BEDB300044773 /* Underscore+Times.h in Headers */ = {isa = PBXBuildFile; fileRef = 437EE9781AC9423D00BBB61A /* Underscore+Times.h */; };
-		BF9F16F4214BEDB300044773 /* Underscore+Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFEF1837E77000A81EB5 /* Underscore+Strings.h */; };
-		BF9F16F5214BEDB300044773 /* USStringWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFF11837E77000A81EB5 /* USStringWrapper.h */; };
-		BF9F16F6214BEDB300044773 /* Underscore+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 547C44D915B30ADC004698B8 /* Underscore+Functional.h */; };
-		BF9F16F7214BEDB300044773 /* USArrayWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54903D11155FF779006854CB /* USArrayWrapper.h */; };
-		BF9F16F8214BEDB300044773 /* USDictionaryWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2115614B220016BE94 /* USDictionaryWrapper.h */; };
-		BF9F16F9214BEDB300044773 /* USConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2C15614F900016BE94 /* USConstants.h */; };
+		BF9F16F3214BEDB300044773 /* Underscore+Times.h in Headers */ = {isa = PBXBuildFile; fileRef = 437EE9781AC9423D00BBB61A /* Underscore+Times.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F4214BEDB300044773 /* Underscore+Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFEF1837E77000A81EB5 /* Underscore+Strings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F5214BEDB300044773 /* USStringWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFADFF11837E77000A81EB5 /* USStringWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F6214BEDB300044773 /* Underscore+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 547C44D915B30ADC004698B8 /* Underscore+Functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F7214BEDB300044773 /* USArrayWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54903D11155FF779006854CB /* USArrayWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F8214BEDB300044773 /* USDictionaryWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2115614B220016BE94 /* USDictionaryWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9F16F9214BEDB300044773 /* USConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 54996B2C15614F900016BE94 /* USConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC8A08E214FA95F009DE052 /* Underscore.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A3DCCD154DD4BF00387DE3 /* Underscore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,7 +291,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9F16E8214BED3600044773 /* Underscore_m.h in Headers */,
+				BFC8A08E214FA95F009DE052 /* Underscore.h in Headers */,
 				BF9F16F3214BEDB300044773 /* Underscore+Times.h in Headers */,
 				BF9F16F4214BEDB300044773 /* Underscore+Strings.h in Headers */,
 				BF9F16F5214BEDB300044773 /* USStringWrapper.h in Headers */,
