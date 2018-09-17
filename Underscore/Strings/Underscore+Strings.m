@@ -26,6 +26,8 @@
 
 #import "Underscore+Strings.h"
 
+#import "USStringWrapper.h"
+
 @implementation Underscore (Strings)
 
 +(USStringWrapper *(^)(NSString *))string

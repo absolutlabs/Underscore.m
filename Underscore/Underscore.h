@@ -24,11 +24,17 @@
 //  IN THE SOFTWARE.
 //
 
+
+
+
 #import <Foundation/Foundation.h>
+
 
 #import "USConstants.h"
 #import "USArrayWrapper.h"
 #import "USDictionaryWrapper.h"
+
+
 
 @interface Underscore : NSObject
 
@@ -49,4 +55,8 @@
 
 @end
 
+
 #import "Underscore+Functional.h"
+#import "Underscore+Strings.h"
+#import "Underscore+Times.h"
+#import "USStringWrapper.h"

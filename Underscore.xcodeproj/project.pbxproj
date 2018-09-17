@@ -294,9 +294,9 @@
 				BFC8A08E214FA95F009DE052 /* Underscore.h in Headers */,
 				BF9F16F3214BEDB300044773 /* Underscore+Times.h in Headers */,
 				BF9F16F4214BEDB300044773 /* Underscore+Strings.h in Headers */,
-				BF9F16F5214BEDB300044773 /* USStringWrapper.h in Headers */,
 				BF9F16F6214BEDB300044773 /* Underscore+Functional.h in Headers */,
 				BF9F16F7214BEDB300044773 /* USArrayWrapper.h in Headers */,
+				BF9F16F5214BEDB300044773 /* USStringWrapper.h in Headers */,
 				BF9F16F8214BEDB300044773 /* USDictionaryWrapper.h in Headers */,
 				BF9F16F9214BEDB300044773 /* USConstants.h in Headers */,
 			);

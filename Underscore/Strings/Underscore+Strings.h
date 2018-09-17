@@ -26,7 +26,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Underscore.h"
-#import "USStringWrapper.h"
+
+@class USStringWrapper;
 
 @interface Underscore (Strings)
 
